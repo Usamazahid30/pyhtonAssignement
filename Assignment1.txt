@@ -1,0 +1,35 @@
+#Question 1
+print("TWinkle, twinke, little star,")
+print("      How I wonder waht your are!")
+print("           UP above the world so high,")
+print("TWinkle, twinke, little star,")
+print("      How I wonder waht your are!")
+
+#Question 2
+import sys
+print(sys.version)
+
+#Question 3
+import datetime
+now = datetime.datetime.now()
+print("Current date and time: ")
+print(str(now))
+
+#Question 4
+import math
+from math import pi
+radius=input("Please enter the radius of circle ")
+print("radius is : ", radius)
+Area =pi*float(radius)**2
+print("Area of the circle is ", Area)
+
+#Question 5
+first = input("Input your First Name : ")
+last = input("Input your Last Name : ")
+print ( last + "" + first)
+
+#Question 6
+var_1=int(input("Enter first number: "))
+var_2=int(input("Enter Second number: "))
+sum =var_1+var_2
+print(sum)
