@@ -1,0 +1,54 @@
+def unique_list(list):
+    uniq_list = []
+    uniq_set = set()
+    for item in list:
+        if item not in uniq_set:
+            uniq_list.append(item)
+            uniq_set.add(item)
+    return uniq_list
+list = [10,20,30,10,10,30,40,50]
+print(unique_list(list))
+
+
+
+
+my_dict = {'1':11,'2':43,'3':343}
+print(sum(my_dict.values()))
+
+
+
+
+x = {'z': 1, 'l': 2, 'c': 7, 'm': 5, 'f': 4, 'g': 9}
+print(x)
+if 'z' in x.keys():
+    print("True")
+else:
+    print("False")
+
+
+d = {0:20, 3:20}
+print(d)
+d.update({1:30})
+print(d)
+
+
+
+val1=input("Enter a first value ")
+val2=input("Enter a Second value ")
+operator=input('Enter any operator ')
+val1=int(val1)
+val2=int(val2)
+if operator == '+':
+    val=val1+val2
+    print("answer",val1+val2)
+elif operator == '-':
+    val=val1-val2
+    print("answer",val1-val2)
+elif operator == '*':
+    val=val1*val2
+    print("answer",val1*val2)
+elif operator == '/':
+    val=val1/val2
+    print("answer",val1/val2)
+else:
+    print("Enter correct operator")
