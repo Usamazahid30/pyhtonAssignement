@@ -1,0 +1,30 @@
+Question 1
+OBJECT ORIENTED PROGRAMMING LANGUAGE
+Object-oriented programming (OOP) refers to a type of computer programming (software design) in which programmers define the data type of a data structure, and also the types of operations (functions) that can be applied to the data structure.
+
+Question 2
+Modularity for easier troubleshooting. Something has gone wrong, and you have no idea where to look.
+Reuse of code through inheritance.
+Flexibility through polymorphism.
+Effective problem solving.
+
+Question 3
+Python Method
+
+*Method is called by its name, but it is associated to an object (dependent).
+*A method is implicitly passed the object on which it is invoked.
+*It may or may not return any data.
+*A method can operate on the data (instance variables) that is contained by the corresponding class
+
+Functions
+
+*Function is block of code that is also called by its name. (independent)
+*The function can have different parameters or may not have any at all. If any data (parameters) are passed, they are passed explicitly.
+*It may or may not return any data.
+*Function does not deal with Class and its instance concept.
+
+Question 4
+CLASS:A class is a code template for creating objects. Objects have member variables and have behaviour associated with them. In python a class is created by the keyword class.
+OBJECT:A unique instance of a data structure that is defined by its class. An object comprises both data members (class variables and instance variables) and methods.
+ATTRIBUTES:Class & Instance Attributes in Python. Class attributes belong to the class itself they will be shared by all the instances. Such attributes are defined in the class body parts usually at the top, for legibility. Unlike class attributes, instance attributes are not shared by objects.
+BEHAVIOR:Objects in Python are generally classified according to their behaviors and the features that they implement. For example, all of the sequence types such as strings, lists, and tuples are grouped together merely because they all happen to support a common set of sequence operations such as s[n], len(s), etc. 
